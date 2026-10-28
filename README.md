@@ -111,9 +111,9 @@ vercel --prod
 
 O nome do projeto na Vercel deve ser `gilvamoliveira`, que define a URL `https://gilvamoliveira.vercel.app`.
 
-### Domínio próprio
+### Domínio personalizado
 
-O domínio `gilvam.is-a.dev` aponta para `cname.vercel-dns.com`. O registro é feito por um PR manual em `is-a-dev/register`, com o arquivo `domains/gilvam.json` escrito à mão, conforme as regras do projeto.
+Para publicar em `gilvam.is-a.dev`, adicione o domínio na Vercel, crie o CNAME apontando para `cname.vercel-dns.com` e abra um PR em `is-a-dev/register` com o arquivo `domains/gilvam.json` escrito à mão, conforme as regras do projeto.
 
 ## Créditos
 

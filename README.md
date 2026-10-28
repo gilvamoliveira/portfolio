@@ -2,7 +2,7 @@
 
 Portfólio pessoal de Gilvam Oliveira, desenvolvedor front-end em formação. Uma página única, em português e inglês, com três projetos, stack, processo de trabalho e contato.
 
-[![Prévia do portfólio](docs/preview.png)](https://gilvamoliveira.vercel.app)
+[![Prévia do portfólio](docs/preview.png)](https://gilvam.is-a.dev)
 
 ## Sobre o projeto
 
@@ -32,7 +32,8 @@ O conteúdo é separado da apresentação: os dados estruturais dos projetos fic
 
 ## Demo
 
-- **Site:** [gilvamoliveira.vercel.app](https://gilvamoliveira.vercel.app)
+- **Site:** [gilvam.is-a.dev](https://gilvam.is-a.dev)
+- **URL alternativa:** [gilvamoliveira.vercel.app](https://gilvamoliveira.vercel.app)
 - **Repositório:** [github.com/GilvamOliveira/portfolio](https://github.com/GilvamOliveira/portfolio)
 
 ## Como rodar
@@ -109,11 +110,11 @@ npm install -g vercel
 vercel --prod
 ```
 
-O nome do projeto na Vercel deve ser `gilvamoliveira`, que define a URL `https://gilvamoliveira.vercel.app`.
+O nome do projeto na Vercel é `gilvamoliveira`, que define a URL alternativa `https://gilvamoliveira.vercel.app`. O domínio principal é `https://gilvam.is-a.dev`.
 
 ### Domínio personalizado
 
-Para publicar em `gilvam.is-a.dev`, adicione o domínio na Vercel e configure no DNS o CNAME para `cname.vercel-dns.com` e o TXT de verificação em `_vercel.gilvam.is-a.dev`. Depois, abra um PR em `is-a-dev/register` com os arquivos `domains/gilvam.json` e `domains/_vercel.gilvam.json` escritos à mão, conforme as regras do projeto.
+O domínio principal é `gilvam.is-a.dev`, configurado na Vercel com CNAME para `cname.vercel-dns.com` e TXT de verificação em `_vercel.gilvam.is-a.dev`.
 
 ## Créditos
 

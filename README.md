@@ -1,6 +1,6 @@
 # Portfólio - Gilvam Oliveira
 
-Portfólio pessoal de Gilvam Oliveira, desenvolvedor front-end em formação. Uma página única, em português e inglês, com três projetos, stack, processo de trabalho e contato.
+Portfólio pessoal, desenvolvedor front-end em formação. Uma página única, em português e inglês, com três projetos, stack, processo de trabalho e contato.
 
 [![Prévia do portfólio](docs/preview.png)](https://gilvam.is-a.dev)
 

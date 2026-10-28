@@ -1,6 +1,6 @@
 export const en = {
   meta: {
-    lang: 'en',
+    lang: 'en-US',
     title: 'Gilvam Oliveira — Front-end Developer',
     description:
       'Portfolio of Gilvam Oliveira, front-end developer in training. 84 programming logic exercises in VisualG and JavaScript, a full-stack client registry with Node.js and SQLite, and 70 HTML and CSS exercises.',

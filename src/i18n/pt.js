@@ -36,14 +36,14 @@ export const pt = {
         summary:
           'Plataforma de estudo com 84 exercícios das apostilas Manzano e Faccat, com as soluções em VisualG e JavaScript lado a lado e execução direto no navegador.',
         role: 'Resolvi os 84 exercícios nas duas linguagens.',
-        alt: 'Editor do Meteoro de Lógica com um exercício em JavaScript e o terminal de saída',
+        alt: 'Catálogo do Meteoro de Lógica com exercícios da apostila Manzano organizados por página e linguagem',
       },
       crud: {
         name: 'CRUD de Clientes',
         summary:
           'Cadastro de clientes com validação de campos, busca, filtros, paginação e exportação, em versão estática e com API REST em Node.js e SQLite.',
         role: 'Construí a base seguindo o projeto do curso; sigo evoluindo e estudando o back-end.',
-        alt: 'Tela do CRUD de Clientes com indicadores, filtros e a tabela de clientes cadastrados',
+        alt: 'Tela do CRUD de Clientes em modo API, com indicadores, filtros e a tabela de clientes cadastrados',
       },
       'html-css': {
         name: 'Exercícios de HTML e CSS',

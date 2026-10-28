@@ -36,14 +36,14 @@ export const en = {
         summary:
           'Study platform with 84 exercises from the Manzano and Faccat workbooks, with VisualG and JavaScript solutions side by side and in-browser execution.',
         role: 'I solved all 84 exercises in both languages.',
-        alt: 'Meteoro de Lógica editor showing a JavaScript exercise and the output terminal',
+        alt: 'Meteoro de Lógica catalog with Manzano workbook exercises organized by page and language',
       },
       crud: {
         name: 'Client Registry',
         summary:
           'Client registry with field validation, search, filters, pagination and export, available as a static version and with a REST API in Node.js and SQLite.',
         role: 'I built the base following the course project and keep improving it while studying the back-end.',
-        alt: 'Client registry screen with summary metrics, filters and the client table',
+        alt: 'Client registry screen in API mode with summary metrics, filters and the client table',
       },
       'html-css': {
         name: 'HTML and CSS Exercises',

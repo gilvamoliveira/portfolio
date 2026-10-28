@@ -37,7 +37,7 @@ O conteúdo é separado da apresentação: os dados estruturais dos projetos fic
 
 ## Como rodar
 
-Requisitos: **Node.js 22.12 ou superior**.
+Requisitos: **Node.js 24.x**.
 
 ```bash
 npm install
@@ -98,7 +98,7 @@ O site é publicado na Vercel a partir do repositório `GilvamOliveira/portfolio
 - **Framework:** Vite
 - **Build command:** `npm run build`
 - **Output directory:** `dist`
-- **Node.js:** 22.12+ (definido em `package.json`)
+- **Node.js:** 24.x (definido em `package.json`)
 
 O repositório está conectado à Vercel: cada push na branch `main` gera um novo deploy de produção.
 
@@ -113,7 +113,7 @@ O nome do projeto na Vercel deve ser `gilvamoliveira`, que define a URL `https:/
 
 ### Domínio personalizado
 
-Para publicar em `gilvam.is-a.dev`, adicione o domínio na Vercel, crie o CNAME apontando para `cname.vercel-dns.com` e abra um PR em `is-a-dev/register` com o arquivo `domains/gilvam.json` escrito à mão, conforme as regras do projeto.
+Para publicar em `gilvam.is-a.dev`, adicione o domínio na Vercel e configure no DNS o CNAME para `cname.vercel-dns.com` e o TXT de verificação em `_vercel.gilvam.is-a.dev`. Depois, abra um PR em `is-a-dev/register` com os arquivos `domains/gilvam.json` e `domains/_vercel.gilvam.json` escritos à mão, conforme as regras do projeto.
 
 ## Créditos
 

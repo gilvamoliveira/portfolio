@@ -7,7 +7,10 @@
   --text: #e6edf3;
   --muted: #8b98a5;
   --accent: #58e6a8;
+  --accent-hover: #7df0bc;
   --accent-ink: #04120c;
+  --header-bg: rgba(10, 12, 15, 0.82);
+  --glow: rgba(88, 230, 168, 0.07);
 
   --fs-label: 0.875rem;
   --fs-body: 1.125rem;
@@ -31,6 +34,22 @@
   --mono: ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, 'Liberation Mono', monospace;
 }
 
+html[data-theme='light'] {
+  --bg: #f6f8fa;
+  --surface: #ffffff;
+  --surface-2: #eef2f5;
+  --border: #d7dfe6;
+  --border-strong: #b5c1cc;
+  --text: #0f1720;
+  --muted: #52616e;
+  --accent: #0b7a58;
+  --accent-hover: #096a4c;
+  --accent-ink: #ffffff;
+  --header-bg: rgba(246, 248, 250, 0.86);
+  --glow: rgba(11, 122, 88, 0.08);
+  color-scheme: light;
+}
+
 *,
 *::before,
 *::after {
@@ -42,6 +61,7 @@
 }
 
 html {
+  color-scheme: dark;
   scroll-behavior: smooth;
   scroll-padding-top: calc(var(--header-h) + 16px);
   scrollbar-gutter: stable;
@@ -53,7 +73,7 @@ body {
   background: var(--bg);
   background-image: radial-gradient(
     900px circle at 12% 0%,
-    rgba(88, 230, 168, 0.07),
+    var(--glow),
     transparent 60%
   );
   background-repeat: no-repeat;
@@ -132,7 +152,7 @@ button {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(10, 12, 15, 0.82);
+  background: var(--header-bg);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
 }
@@ -208,6 +228,32 @@ button {
   color: var(--accent-ink);
 }
 
+.theme-toggle {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--muted);
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.theme-toggle:hover {
+  border-color: var(--border-strong);
+  color: var(--text);
+}
+
+.theme-toggle svg {
+  width: 1.1rem;
+  height: 1.1rem;
+}
+
 .hero {
   max-width: var(--max);
   margin: 0 auto;
@@ -259,8 +305,8 @@ button {
 }
 
 .btn-primary:hover {
-  background: #7df0bc;
-  border-color: #7df0bc;
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
 }
 
 .btn-ghost:hover {

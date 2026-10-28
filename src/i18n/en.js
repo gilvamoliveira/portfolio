@@ -8,6 +8,8 @@ export const en = {
   a11y: {
     skip: 'Skip to content',
     language: 'Language',
+    themeLight: 'Switch to light theme',
+    themeDark: 'Switch to dark theme',
   },
   nav: {
     label: 'Site sections',

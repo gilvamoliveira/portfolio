@@ -9,6 +9,21 @@
       content="Portfólio de Gilvam Oliveira, desenvolvedor front-end em formação. 84 exercícios de lógica em VisualG e JavaScript, cadastro full-stack com Node.js e SQLite e 70 exercícios de HTML e CSS."
     />
     <meta name="theme-color" content="#0A0C0F" />
+    <script>
+      (() => {
+        try {
+          const stored = window.localStorage.getItem('portfolio-theme');
+          const theme = stored === 'light' ? 'light' : 'dark';
+          document.documentElement.dataset.theme = theme;
+          document.documentElement.style.colorScheme = theme;
+          document
+            .querySelector('meta[name="theme-color"]')
+            ?.setAttribute('content', theme === 'light' ? '#F6F8FA' : '#0A0C0F');
+        } catch {
+          document.documentElement.dataset.theme = 'dark';
+        }
+      })();
+    </script>
 
     <link rel="canonical" href="https://gilvam.is-a.dev/" />
     <meta property="og:type" content="website" />

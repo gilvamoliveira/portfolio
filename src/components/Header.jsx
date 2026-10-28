@@ -1,5 +1,6 @@
 import { useLocale } from '../i18n/LocaleContext.jsx';
 import LocaleToggle from './LocaleToggle.jsx';
+import ThemeToggle from './ThemeToggle.jsx';
 
 export default function Header() {
   const { t } = useLocale();
@@ -27,6 +28,7 @@ export default function Header() {
               ))}
             </ul>
           </nav>
+          <ThemeToggle />
           <LocaleToggle />
         </div>
       </div>

@@ -8,6 +8,8 @@ export const pt = {
   a11y: {
     skip: 'Pular para o conteúdo',
     language: 'Idioma',
+    themeLight: 'Ativar tema claro',
+    themeDark: 'Ativar tema escuro',
   },
   nav: {
     label: 'Seções do site',

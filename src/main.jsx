@@ -4,11 +4,14 @@ import '@fontsource-variable/inter';
 import './styles.css';
 import App from './App.jsx';
 import { LocaleProvider } from './i18n/LocaleContext.jsx';
+import { ThemeProvider } from './theme/ThemeContext.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <LocaleProvider>
-      <App />
-    </LocaleProvider>
+    <ThemeProvider>
+      <LocaleProvider>
+        <App />
+      </LocaleProvider>
+    </ThemeProvider>
   </StrictMode>,
 );

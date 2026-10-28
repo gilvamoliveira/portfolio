@@ -100,6 +100,8 @@ O site é publicado na Vercel a partir do repositório `GilvamOliveira/portfolio
 - **Output directory:** `dist`
 - **Node.js:** 22.12+ (definido em `package.json`)
 
+O repositório está conectado à Vercel: cada push na branch `main` gera um novo deploy de produção.
+
 Para publicar manualmente:
 
 ```bash

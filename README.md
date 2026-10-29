@@ -1,6 +1,6 @@
 # Portfólio - Gilvam Oliveira
 
-Portfólio pessoal de Gilvam Oliveira, desenvolvedor back-end em formação. Uma página única, em português e inglês, com três projetos em destaque, uma lista de outros repositórios, stack, processo de trabalho e contato.
+Meu portfólio pessoal: sou desenvolvedor back-end em formação. Uma página única, em português e inglês, com três projetos em destaque, uma lista de outros repositórios, stack, processo de trabalho e contato.
 
 [![Prévia do portfólio](docs/preview.png)](https://gilvam.is-a.dev)
 

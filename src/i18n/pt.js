@@ -3,7 +3,7 @@ export const pt = {
     lang: 'pt-BR',
     title: 'Gilvam Oliveira — Desenvolvedor Back-End em formação',
     description:
-      'Portfólio de Gilvam Oliveira, desenvolvedor back-end em formação. Cadastro de clientes com API REST em Node.js e SQLite, API de fórum em Java e Spring Boot, catálogo de livros com JPA e PostgreSQL e 84 exercícios de lógica.',
+      'Sou Gilvam Oliveira, desenvolvedor back-end em formação. Meu portfólio reúne cadastro de clientes com API REST em Node.js e SQLite, API de fórum em Java e Spring Boot, catálogo de livros com JPA e PostgreSQL e 84 exercícios de lógica.',
   },
   a11y: {
     skip: 'Pular para o conteúdo',

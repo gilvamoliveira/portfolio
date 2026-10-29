@@ -3,7 +3,7 @@ export const en = {
     lang: 'en-US',
     title: 'Gilvam Oliveira — Back-End Developer in training',
     description:
-      'Portfolio of Gilvam Oliveira, back-end developer in training. Client registry with a REST API in Node.js and SQLite, a forum API in Java and Spring Boot, a book catalogue with JPA and PostgreSQL, and 84 programming-logic exercises.',
+      'I am Gilvam Oliveira, a back-end developer in training. My portfolio brings together a client registry with a REST API in Node.js and SQLite, a forum API in Java and Spring Boot, a book catalogue with JPA and PostgreSQL, and 84 programming-logic exercises.',
   },
   a11y: {
     skip: 'Skip to content',

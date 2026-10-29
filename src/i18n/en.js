@@ -1,9 +1,9 @@
 export const en = {
   meta: {
     lang: 'en-US',
-    title: 'Gilvam Oliveira — Front-end Developer',
+    title: 'Gilvam Oliveira — Back-End Developer in training',
     description:
-      'Portfolio of Gilvam Oliveira, front-end developer in training. 84 programming logic exercises in VisualG and JavaScript, a full-stack client registry with Node.js and SQLite, and 70 HTML and CSS exercises.',
+      'Portfolio of Gilvam Oliveira, back-end developer in training. Client registry with a REST API in Node.js and SQLite, a forum API in Java and Spring Boot, a book catalogue with JPA and PostgreSQL, and 84 programming-logic exercises.',
   },
   a11y: {
     skip: 'Skip to content',
@@ -21,8 +21,8 @@ export const en = {
   hero: {
     label: 'Portfolio · 2026',
     name: 'Gilvam Oliveira',
-    role: 'Front-end developer in training',
-    lead: 'I solved 84 programming logic exercises in VisualG and JavaScript. I built a full-stack client registry with Node.js and SQLite. I study at Instituto PROA, currently learning React and SQL Server.',
+    role: 'Back-end developer in training',
+    lead: 'I build APIs with Java, Spring Boot and Node.js, and I also take care of the interface that consumes them. I have a full-stack client registry with SQLite and 23 tests in CI, and a forum API in Java. I am starting C#/.NET at Instituto PROA.',
     ctaProjects: 'View projects',
     ctaLinkedin: 'LinkedIn',
   },
@@ -36,15 +36,15 @@ export const en = {
       meteoro: {
         name: 'Meteoro de Lógica',
         summary:
-          'Study platform with 84 exercises from the Manzano and Faccat workbooks, with VisualG and JavaScript solutions side by side and in-browser execution.',
+          'Study platform with 84 exercises from the Manzano and Faccat workbooks, VisualG and JavaScript solutions side by side, and a VisualG interpreter written in JavaScript that runs the programs in the browser.',
         role: 'I solved all 84 exercises in both languages.',
         alt: 'Meteoro de Lógica catalog with Manzano workbook exercises organized by page and language',
       },
       crud: {
-        name: 'Client Registry',
+        name: 'Client Registry — API and interface',
         summary:
-          'Client registry with field validation, search, filters, pagination and export, available as a static version and with a REST API in Node.js and SQLite.',
-        role: 'I built the base following the course project and keep improving it while studying the back-end.',
+          'REST API in Node.js with SQLite: server-side pagination, search, filters and sorting, optional token authentication, rate limiting and restricted CORS. The interface works with the API and also on its own, falling back to localStorage.',
+        role: 'I built the base from the course project and evolved the API and its 23 automated tests.',
         alt: 'Client registry screen in API mode with summary metrics, filters and the client table',
       },
       'html-css': {
@@ -55,18 +55,36 @@ export const en = {
         alt: 'Landing page of the HTML and CSS exercise track with levels and activities',
       },
     },
+    othersLabel: 'Also published',
+    others: [
+      {
+        name: 'ForumHub',
+        description: 'Forum API in Java and Spring Boot, with JPA, MySQL, Flyway and JWT issuance.',
+        href: 'https://github.com/GilvamOliveira/forumhub',
+      },
+      {
+        name: 'LiterAlura',
+        description: 'Book catalogue with Java, Spring Boot, JPA and PostgreSQL, querying the Gutendex API.',
+        href: 'https://github.com/GilvamOliveira/LiterAlura',
+      },
+      {
+        name: 'Design portfolio',
+        description: 'Eight interface prototypes in Figma, from login screens to landing pages.',
+        href: 'https://github.com/GilvamOliveira/design-portfolio',
+      },
+    ],
   },
   stack: {
     label: 'Stack',
     title: 'What I use today',
     groups: [
-      { title: 'Languages', items: ['HTML5', 'CSS3', 'JavaScript (ES6+)'] },
-      { title: 'Framework', items: ['React'] },
-      { title: 'Data', items: ['SQL', 'SQL Server', 'SQLite'] },
-      { title: 'Tools', items: ['Git', 'GitHub', 'Figma', 'Vite'] },
+      { title: 'Back end', items: ['Java 17', 'Spring Boot', 'JPA', 'Node.js', 'REST APIs'] },
+      { title: 'Data', items: ['SQL', 'MySQL', 'PostgreSQL', 'SQL Server', 'SQLite'] },
+      { title: 'Front end', items: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Vite'] },
+      { title: 'Quality', items: ['JUnit', 'node:test', 'GitHub Actions', 'Docker', 'Git'] },
     ],
-    learningLabel: 'Currently learning',
-    learning: ['TypeScript', 'C#'],
+    learningLabel: 'Starting now',
+    learning: ['C#/.NET'],
   },
   process: {
     label: 'Process',
@@ -75,12 +93,12 @@ export const en = {
       {
         number: '01',
         title: 'Design',
-        text: 'I start in Figma: wireframe, palette and typography before the first line of code.',
+        text: 'Before coding, I sketch the flow and the screen in Figma: wireframe, palette and typography.',
       },
       {
         number: '02',
         title: 'Build',
-        text: 'Semantic HTML, responsive CSS and plain JavaScript. A framework only when it solves something.',
+        text: 'I start with the data model and the API contract. The interface comes next, in JavaScript or React.',
       },
       {
         number: '03',
@@ -92,7 +110,7 @@ export const en = {
   contact: {
     label: 'Contact',
     title: "Let's talk",
-    lead: "I'm looking for an internship or a junior front-end position.",
+    lead: "I'm looking for an internship or a junior back-end position.",
     location: 'São Paulo — remote or hybrid',
     links: [
       {

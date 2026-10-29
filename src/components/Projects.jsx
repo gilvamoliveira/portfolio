@@ -13,6 +13,20 @@ export default function Projects() {
           <ProjectCard key={project.id} project={project} />
         ))}
       </div>
+
+      <div className="other-projects">
+        <h3>{t.projects.othersLabel}</h3>
+        <ul>
+          {t.projects.others.map((item) => (
+            <li key={item.name}>
+              <a href={item.href} target="_blank" rel="noreferrer">
+                {item.name} <span aria-hidden="true">↗</span>
+              </a>
+              <span>{item.description}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
     </Section>
   );
 }

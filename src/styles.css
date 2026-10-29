@@ -444,6 +444,48 @@ button {
   text-underline-offset: 4px;
 }
 
+.other-projects {
+  margin-top: var(--sp-4);
+  padding-top: var(--sp-3);
+  border-top: 1px solid var(--border);
+}
+
+.other-projects h3 {
+  margin-bottom: var(--sp-2);
+  font-family: var(--mono);
+  font-size: 0.8125rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.other-projects ul {
+  display: grid;
+  gap: var(--sp-2);
+}
+
+.other-projects li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 1rem;
+  font-size: 0.9375rem;
+}
+
+.other-projects a {
+  font-weight: 500;
+  color: var(--accent);
+}
+
+.other-projects a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.other-projects li span {
+  color: var(--muted);
+}
+
 .stack-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -619,6 +661,11 @@ button {
 
   .stack-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .other-projects ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--sp-2) var(--sp-3);
   }
 }
 

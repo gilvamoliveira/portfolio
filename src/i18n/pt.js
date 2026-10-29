@@ -1,9 +1,9 @@
 export const pt = {
   meta: {
     lang: 'pt-BR',
-    title: 'Gilvam Oliveira — Desenvolvedor Front-end',
+    title: 'Gilvam Oliveira — Desenvolvedor Back-End em formação',
     description:
-      'Portfólio de Gilvam Oliveira, desenvolvedor front-end em formação. 84 exercícios de lógica em VisualG e JavaScript, cadastro full-stack com Node.js e SQLite e 70 exercícios de HTML e CSS.',
+      'Portfólio de Gilvam Oliveira, desenvolvedor back-end em formação. Cadastro de clientes com API REST em Node.js e SQLite, API de fórum em Java e Spring Boot, catálogo de livros com JPA e PostgreSQL e 84 exercícios de lógica.',
   },
   a11y: {
     skip: 'Pular para o conteúdo',
@@ -21,8 +21,8 @@ export const pt = {
   hero: {
     label: 'Portfólio · 2026',
     name: 'Gilvam Oliveira',
-    role: 'Desenvolvedor front-end em formação',
-    lead: 'Resolvi 84 exercícios de lógica em VisualG e em JavaScript. Construí um cadastro full-stack com Node.js e SQLite. Estou no Instituto PROA, estudando React e SQL Server.',
+    role: 'Desenvolvedor back-end em formação',
+    lead: 'Construo APIs com Java, Spring Boot e Node.js e cuido também da interface que consome cada uma. Tenho um cadastro de clientes full-stack com SQLite e 23 testes no CI e uma API de fórum em Java. Começo C#/.NET no Instituto PROA.',
     ctaProjects: 'Ver projetos',
     ctaLinkedin: 'LinkedIn',
   },
@@ -36,16 +36,16 @@ export const pt = {
       meteoro: {
         name: 'Meteoro de Lógica',
         summary:
-          'Plataforma de estudo com 84 exercícios das apostilas Manzano e Faccat, com as soluções em VisualG e JavaScript lado a lado e execução direto no navegador.',
+          'Plataforma de estudo com 84 exercícios das apostilas Manzano e Faccat, soluções em VisualG e JavaScript lado a lado e um interpretador de VisualG escrito em JavaScript que executa os programas no navegador.',
         role: 'Resolvi os 84 exercícios nas duas linguagens.',
         alt: 'Catálogo do Meteoro de Lógica com exercícios da apostila Manzano organizados por página e linguagem',
       },
       crud: {
-        name: 'CRUD de Clientes',
+        name: 'Cadastro de Clientes — API e interface',
         summary:
-          'Cadastro de clientes com validação de campos, busca, filtros, paginação e exportação, em versão estática e com API REST em Node.js e SQLite.',
-        role: 'Construí a base seguindo o projeto do curso; sigo evoluindo e estudando o back-end.',
-        alt: 'Tela do CRUD de Clientes em modo API, com indicadores, filtros e a tabela de clientes cadastrados',
+          'API REST em Node.js com SQLite: paginação, busca, filtros e ordenação no servidor, autenticação opcional por token, rate limiting e CORS restrito. A interface funciona com a API e também sozinha, com fallback para localStorage.',
+        role: 'Construí a base a partir do projeto do curso e evoluí a API e os 23 testes automatizados.',
+        alt: 'Tela do Cadastro de Clientes em modo API, com indicadores, filtros e a tabela de clientes cadastrados',
       },
       'html-css': {
         name: 'Exercícios de HTML e CSS',
@@ -55,18 +55,36 @@ export const pt = {
         alt: 'Página inicial da trilha de exercícios de HTML e CSS com os níveis e as atividades',
       },
     },
+    othersLabel: 'Também publiquei',
+    others: [
+      {
+        name: 'ForumHub',
+        description: 'API de fórum em Java e Spring Boot, com JPA, MySQL, Flyway e emissão de JWT.',
+        href: 'https://github.com/GilvamOliveira/forumhub',
+      },
+      {
+        name: 'LiterAlura',
+        description: 'Catálogo de livros com Java, Spring Boot, JPA e PostgreSQL, consumindo a API Gutendex.',
+        href: 'https://github.com/GilvamOliveira/LiterAlura',
+      },
+      {
+        name: 'Portfólio de design',
+        description: 'Oito protótipos de interface no Figma, de login a landing pages.',
+        href: 'https://github.com/GilvamOliveira/design-portfolio',
+      },
+    ],
   },
   stack: {
     label: 'Stack',
     title: 'O que eu uso hoje',
     groups: [
-      { title: 'Linguagens', items: ['HTML5', 'CSS3', 'JavaScript (ES6+)'] },
-      { title: 'Framework', items: ['React'] },
-      { title: 'Dados', items: ['SQL', 'SQL Server', 'SQLite'] },
-      { title: 'Ferramentas', items: ['Git', 'GitHub', 'Figma', 'Vite'] },
+      { title: 'Back-end', items: ['Java 17', 'Spring Boot', 'JPA', 'Node.js', 'APIs REST'] },
+      { title: 'Dados', items: ['SQL', 'MySQL', 'PostgreSQL', 'SQL Server', 'SQLite'] },
+      { title: 'Front-end', items: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Vite'] },
+      { title: 'Qualidade', items: ['JUnit', 'node:test', 'GitHub Actions', 'Docker', 'Git'] },
     ],
-    learningLabel: 'Estudando agora',
-    learning: ['TypeScript', 'C#'],
+    learningLabel: 'Começando agora',
+    learning: ['C#/.NET'],
   },
   process: {
     label: 'Processo',
@@ -75,12 +93,12 @@ export const pt = {
       {
         number: '01',
         title: 'Desenho',
-        text: 'Começo no Figma: wireframe, paleta e tipografia antes da primeira linha de código.',
+        text: 'Antes de codificar, desenho o fluxo e a tela no Figma: wireframe, paleta e tipografia.',
       },
       {
         number: '02',
         title: 'Codifico',
-        text: 'HTML semântico, CSS responsivo e JavaScript puro. Framework só quando resolve.',
+        text: 'Começo pelo modelo de dados e pelo contrato da API. A interface vem depois, em JavaScript ou React.',
       },
       {
         number: '03',
@@ -92,7 +110,7 @@ export const pt = {
   contact: {
     label: 'Contato',
     title: 'Vamos conversar',
-    lead: 'Estou buscando estágio ou posição júnior em front-end.',
+    lead: 'Estou buscando estágio ou posição júnior em back-end.',
     location: 'São Paulo — remoto ou híbrido',
     links: [
       {

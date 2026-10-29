@@ -1,6 +1,6 @@
 # Portfólio - Gilvam Oliveira
 
-Portfólio pessoal, desenvolvedor front-end em formação. Uma página única, em português e inglês, com três projetos, stack, processo de trabalho e contato.
+Portfólio pessoal de Gilvam Oliveira, desenvolvedor back-end em formação. Uma página única, em português e inglês, com três projetos em destaque, uma lista de outros repositórios, stack, processo de trabalho e contato.
 
 [![Prévia do portfólio](docs/preview.png)](https://gilvam.is-a.dev)
 
@@ -18,6 +18,7 @@ O conteúdo é separado da apresentação: os dados estruturais dos projetos fic
 - **Sem router:** navegação por âncoras entre as seções.
 - **CSS próprio:** design tokens para cores, espaçamento e tipografia, sem framework de UI.
 - **Conteúdo centralizado:** textos em arquivos de i18n e dados dos projetos em um único módulo.
+- **Outros repositórios:** a lista "Também publiquei" fica só nos arquivos de i18n, com links diretos e sem capturas.
 
 ## Stack
 
